@@ -1,0 +1,66 @@
+VARIJABLE
+const luka = {
+    name: 'Luka',
+    age: 29
+}
+undefined
+luka.age
+29
+luka.name
+"Luka"
+const lista = [1,2,3,4]
+undefined
+lista;
+(4) [1, 2, 3, 4]
+lista[3]
+4
+
+FUNKCIJA
+function sum(num_1, num_2) {
+    return num_1 + num_2;
+  }
+undefined
+sum(3, 4)
+7
+function mul(sd, sf} {
+    return sd * sf;
+              }
+VM2631:1 Uncaught SyntaxError: Unexpected token '}'
+function mul(sd, sf) {
+    return sd * sf;
+              }
+undefined
+mul(5, 7)
+35
+const result = mul(5, 7)
+
+IF KONDICIONALI
+15 > 16
+false
+16 > 16
+false
+16 < 16
+false
+16 === 16
+true
+16 < 17
+true
+(16 < 17) && (16 === 15)
+false
+(16 < 17) || (16 === 15)
+true
+if ((16 < 17) && (16 === 15)) {
+    console.log(1);
+}
+else {
+    console.log(2);
+}
+VM3241:5 2
+undefined
+if ((16 < 17) && (16 === 16)) {
+    console.log(1);
+}
+else {
+    console.log(2);
+}
+VM3247:2 1
